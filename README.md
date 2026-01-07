@@ -154,12 +154,13 @@ DB_DATABASE=authkit
 DB_USERNAME=root
 DB_PASSWORD=
 
-JWT_SECRET=your_jwt_secret
+TOKEN_SECRET=your_jwt_secret
 
+SMPT_USER=your_email@gmail.com
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=465
-SMTP_USER=your_email@gmail.com
-SMTP_PASS=your_smtp_password
+APP_EMAIL=your_email@gmail.com
+APP_EMAIL_PASS=your_email_app_password
 ```
 
 ---
