@@ -1,0 +1,16 @@
+typescipt:
+ npm install --save-dev typescript @types/node
+ npx tsc --init
+
+sequelize-cli:
+ npm install --save-dev ts-node
+ npm install sequelize
+ npm install mysql2
+ npm instal --save-dev sequelize-cli
+ npx sequelize-cli init
+ npx sequelize-cli migration:generate --name=migration_file_name
+ npx sequelize-cli db:migrate --env=development
+ npx sequelize-cli db:migrate:undo:all --env=development
+
+sequelize:
+ npm install --save-dev @type/sequelize 
